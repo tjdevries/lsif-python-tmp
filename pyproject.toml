@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lsif"
+version = "0.1.0"
+description = ""
+authors = ["TJ DeVries <devries.timothyj@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+jedi = "0.18.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
